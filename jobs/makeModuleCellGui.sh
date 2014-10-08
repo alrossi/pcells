@@ -84,7 +84,7 @@ cd -
 #
 echo "Preparing Distribution"
 rm -rf ${DIST}
-mkdir ${DIST}
+mkdir -p ${DIST}
 cp ${CLASSES}/*.jar ${DIST}
 cp ${jobs}/YCommander.plugins ${DIST}
 cp ${jobs}/MonitoringPanel.plugins ${DIST}
